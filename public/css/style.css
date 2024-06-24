@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(42, 41, 41);
+}
+
+h1{
+    color: rgb(125, 125, 125);
+    text-align: center;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Georgia, serif;
+}

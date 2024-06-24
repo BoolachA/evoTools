@@ -30,8 +30,14 @@ async function syncDB() {
 }
 
 app.get('/', (req,res) => {
-    res.send("Hello World!")   
+    res.send("Hello World!");
 });
+
+//404 handler
+app.use(function(req, res, next) {
+    res.status(404);
+    res.sendFile(path.join(__dirname + "/public/404_static.html"))  
+  });
 
 
 //PARA CONECTAR EN LOCAL
